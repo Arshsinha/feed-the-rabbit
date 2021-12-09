@@ -35,7 +35,7 @@ function draw() {
   rabbit.collide(edges);
   
    drawSprites();
-}
+
    
   
 // var select_sprites = Math(random(1,3));
@@ -44,7 +44,7 @@ function draw() {
 
 // var select_sprites = Math.round(1,3);
 
- var select_sprites = Math.round(random(1,3));
+ var select_sprites = Math.round(Math.random(1,3));
 
   
   
@@ -59,8 +59,8 @@ function draw() {
 
  
 
-var apple=createSprite(100,800,50,100)
-
+//var apple=createSprite(100,800,50,100)
+  }
 
 
 function createApples() {
